@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%; 
+    max-width: 500px; 
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.controls select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+    width: 14.28%;
+    padding: 10px; 
+    text-align: center;
+    vertical-align: middle; 
+    border: 1px solid #ddd;
+}
+
+.calendar th {
+    background-color: #333;
+    color: white;
+}
+
+.calendar td {
+    height: 60px;
+    background-color: #f9f9f9;
+}
+
+.calendar td.sunday {
+    color: red; 
+}
